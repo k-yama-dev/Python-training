@@ -2,4 +2,4 @@
 ## Python since 2026/05/13
 
 ### 0513
-mor miss aft p
+mor miss aft step6 ~p27
