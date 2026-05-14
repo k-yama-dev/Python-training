@@ -4,4 +4,4 @@
 ### 0513
 mor miss aft step6 ~p27
 ### 0514
-mor p26~p36 aft p36~
+mor p26~p36 aft p36-
