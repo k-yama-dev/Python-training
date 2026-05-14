@@ -1,0 +1,5 @@
+>>> my_list = ['hello',10, True, False, None]
+>>> empty_list = []
+>>> str_list = list('hello')
+>>> str_list
+['h', 'e', 'l', 'l', 'o']

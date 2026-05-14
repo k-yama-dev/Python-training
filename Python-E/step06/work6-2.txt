@@ -1,0 +1,10 @@
+>>> languages = []
+>>> languages.append('Python')
+>>> languages.append('Ruby')
+>>> languages
+['Python', 'Ruby']
+>>> languages.pop()
+'Ruby'
+>>> languages.remove('Python')
+>>> languages
+[]

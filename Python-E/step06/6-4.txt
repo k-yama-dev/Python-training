@@ -1,0 +1,17 @@
+>>> my_list
+[5, 4, 2, 1]
+>>> len(my_list)
+4
+>>> max(my_list)
+5
+>>> min(my_list)
+1
+>>> sum(my_list)
+12
+>>> sorted(my_list)
+[1, 2, 4, 5]
+>>> my_list
+[5, 4, 2, 1]
+>>> my_list.sort()
+>>> my_list
+[1, 2, 4, 5]

@@ -1,0 +1,55 @@
+>>> my_List.append(10)
+Traceback (most recent call last):
+  File "<python-input-19>", line 1, in <module>
+    my_List.append(10)
+    ^^^^^^^
+NameError: name 'my_List' is not defined. Did you mean: 'my_list'?
+>>> my_list.append(10)
+>>> my_list
+['hello', 10, True, False, None, 10]
+>>> my_list.clear()
+>>> my_list
+[]
+>>> my_list = [1,2,3].copy()
+>>> my_list
+[1, 2, 3]
+>>> [1,1,2,1,2,3].count(1)
+3
+>>> [1,1,2,1,2,3].count(2)
+2
+>>> [1,1,2,1,2,3].count(3)
+1
+>>> my_list.extend([4,5,6])
+>>> my_list
+[1, 2, 3, 4, 5, 6]
+>>> ['チャーハン','寿司','カレー'].index('寿司')
+1
+>>> ['チャーハン','寿司','カレー'].index('だんご')
+Traceback (most recent call last):
+  File "<python-input-32>", line 1, in <module>
+    ['チャーハン','寿司','カレー'].index('だんご')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+ValueError: 'だんご' is not in list
+>>> my_list.insert(0,'追加データ')
+>>> my_list
+['追加データ', 1, 2, 3, 4, 5, 6]
+>>> my_list.pop()
+6
+>>> my_list
+['追加データ', 1, 2, 3, 4, 5]
+>>> my_list.pop(0)
+'追加データ'
+>>> my_list
+[1, 2, 3, 4, 5]
+>>> my_list.remove(3)
+>>> my_list
+[1, 2, 4, 5]
+>>> my_list.remove(6)
+Traceback (most recent call last):
+  File "<python-input-41>", line 1, in <module>
+    my_list.remove(6)
+    ~~~~~~~~~~~~~~^^^
+ValueError: list.remove(x): x not in list
+>>> my_list.sort(reverse=True)
+>>> my_list
+[5, 4, 2, 1]
