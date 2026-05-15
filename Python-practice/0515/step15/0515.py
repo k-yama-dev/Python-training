@@ -42,3 +42,18 @@ ms = ["pork", "chicken", "beef", "muton"]
 vs = ["bro", "let", "car", "avo"]
 for n, y in zip(ms, vs):
     print(n, y)
+
+print("ワーク")
+
+for i in range(0, 10, 2):
+    print(i, end=",")
+print()
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        rslt = "{0}*{1}={2}".format(j, i, i * j)
+        print(rslt)
+
+heights = [170, 180, 165, 171, 170]
+for i, hi in enumerate(heights):
+    print(i, hi)
