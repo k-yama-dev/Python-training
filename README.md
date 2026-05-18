@@ -7,3 +7,5 @@ mor miss aft step6 ~p27
 mor p26~p36 aft p36-47 step12
 ### 0515
 mor step13 p48 ~ step15 p61 aft p62~step17 p71
+### 0518
+mor step18 p72~step19 p78　aft
